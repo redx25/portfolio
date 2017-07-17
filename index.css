@@ -1,0 +1,98 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #625e62;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+   
+}
+
+.container-fluid {
+  padding: 1rem 0px;
+}
+
+.section-header {
+  padding-bottom: 1rem;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.darken {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.7);
+  top: 0;
+  left: 0;
+}
+
+.hero-title {
+  position: absolute;
+  top: 40%;
+  color: white;
+  width: 100%;
+}
+
+.name {
+  color: #2ECC71;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.job {
+  text-align: initial;
+  font-size: 1.5rem;
+  position: relative;
+  top: -10px;
+}
+
+.about {
+  
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media > a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-media > a:hover, .social-media > a:focus {
+  color: #4c4c4c;
+}
+
+.skills {
+  background: #2ECC71;
+  color: white;
+  text-align: center;
+}
+
+.dev-icon {
+  text-transform: uppercase;
+}
+
+.dev-icon > i {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
